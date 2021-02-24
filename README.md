@@ -1,4 +1,4 @@
-# COMP 551 Project 1 - Binary Classification
+# Binary Classification from Scratch
 
 Data Analysis, Data Cleaning and Classifcation on four popular UCI datasets using Logistic Regression and Naive Bayes
 
