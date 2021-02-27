@@ -39,3 +39,9 @@ Experiments Included:
 4. WhiteWineQuality - Task2_Task3.ipynb: Loads, cleans, and implements models on White WIne Quality Dataset
 
 Read writeup.pdf for full results and discussion
+
+<object data="writeup.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="writeup.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="writeup.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
