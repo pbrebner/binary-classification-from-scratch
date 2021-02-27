@@ -45,3 +45,5 @@ Read writeup.pdf for full results and discussion
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="writeup.pdf">Download PDF</a>.</p>
     </embed>
 </object>
+
+<embed src="writeup.pdf" type="application/pdf" width="100%" height="600px" />
