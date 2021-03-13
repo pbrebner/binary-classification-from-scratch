@@ -1,30 +1,22 @@
 # Binary Classification from Scratch
 
-Data Analysis, Data Cleaning and Classifcation on four popular UCI datasets using Logistic Regression and Naive Bayes
+Data Analysis, Data Cleaning and Classifcation on four popular UCI datasets using Logistic Regression and Naive Bayes, built from scratch without using machine learning libraries. The project was split into 3 tasks: (1) Aquire, preprocess and analyze the data, (2) Implement/Build the machine learning models, and (3) Run the models and additonal experiments.
+
+Datasets used: Adult Census, Breast Cancer Diagnosis, Ionoshere Data, and White Wine Quality from the UCI dataset archive
 
 writeup.pdf: The main report of the project
 
 ## Task 1: Acquire, Preprocess and Analyze the Data
-Acquire the data from UCI datasets, clean the data, and perform basic statistics to better understand the Data
+Acquire the data from UCI datasets, clean the data, and perform basic statistics to better understand the Data.
 
-Datasets used: Adult Census, Breast Cancer Diagnosis, Ionoshere Data, White Wine Quality
-
-### Jupyter Notebook Files
-1. DatasetAnalysis_AdultCensus.ipynb: Loading, preprocessing and analysis of the Adult Census Dataset
-2. DatasetAnalysis_BreastCancerDiagnosis.ipynb: Loading, preprocessing and analysis of the Breast Cancer Diagnosis Dataset
-3. DatasetAnalysis_Ionosphere.ipynb: Loading, preprocessing and analysis of the Ionosphere Dataset
-4. DatasetAnalysis_WhiteWineQuality.ipynb: Loading, preprocessing and analysis of the White Wine Quality Dataset
-
-## Task 2: Implement the Models
-Implement Both Models from Scratch. 
+## Task 2: Implement/Build the Machine Learning Models
+Implement/Build both Models from Scratch. 
 
 Logistic regression with full batch gradient descent for optimization
 
-Naive Bayes with appropriate type of liklihood for features of the datasets
+Naive Bayes with the appropriate type of liklihood for the features of the datasets
 
-### Jupyter Notebook Files (Combined with Task 3)
-
-## Task 3: Run Experiments
+## Task 3: Run Models and Experiments
 Used 5 fold cross validation to estimate accuracy in all of the experiments.
 
 Experiments Included:
@@ -32,11 +24,11 @@ Experiments Included:
 2. Test different leanring rates for gradient descent applied to logisitc regression
 3. Compare the accuracy of the models as a function of the size of the dataset (controlling the training size)
 
-### Jupyter Notebook Files
-1. AdultCensus_Task2_Task3.ipynb: Loads, cleans, and implements models on Adult Census Dataset
-2. BreastCancerDiagnosis - Task2_Task3.ipynb: Loads, cleans, and implements models on Breast Cancer Diagnosis Dataset
-3. Ionosphere_Data - Task2_Task3.ipynb: Loads, cleans, and implements models on Ionosphere Dataset
-4. WhiteWineQuality - Task2_Task3.ipynb: Loads, cleans, and implements models on White WIne Quality Dataset
+## Jupyter Notebook Files
+1. binary_adult_census.ipynb: Loads, cleans, analyzes and implements models on the Adult Census Dataset
+2. binary_breast_cancer_diagnosis.ipynb: Loads, cleans, analyzes and implements models on the Breast Cancer Diagnosis Dataset
+3. binary_ionosphere.ipynb: Loads, cleans, analyzes and implements models on the Ionosphere Dataset
+4. binary_white_wine_quality.ipynb: Loads, cleans, analyzes and implements models on White Wine Quality Dataset
 
 <object data="writeup.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="writeup.pdf">
