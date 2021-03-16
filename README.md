@@ -7,7 +7,7 @@ Datasets used: Adult Census, Breast Cancer Diagnosis, Ionoshere Data, and White 
 writeup.pdf: The main report of the project
 
 ## Task 1: Acquire, Preprocess and Analyze the Data
-Acquire the data from UCI datasets, clean the data, and perform basic statistics to better understand the Data.
+Acquire the data from UCI datasets, clean the data, and perform basic statistics to better understand the Data. This included but not limited to removing NaN values, modifying features if necessary, looking at probability distributions and correlations of features, and splitting the data into testing and training sets.
 
 ## Task 2: Implement/Build the Machine Learning Models
 Implement/Build both Models from Scratch. 
